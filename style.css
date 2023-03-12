@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+   
+    margin: 0 auto 60px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected {
+    background-color: yellow;
+  }
